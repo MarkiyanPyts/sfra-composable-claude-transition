@@ -288,8 +288,13 @@ const {handler} = runtime.createHandler(options, (app) => {
                 useDefaults: true,
                 directives: {
                     'img-src': [
+                        "'self'",
+                        'data:',
                         // Default source for product images - replace with your CDN
-                        '*.commercecloud.salesforce.com'
+                        '*.commercecloud.salesforce.com',
+                        // Lorem Picsum for placeholder images
+                        'https://picsum.photos',
+                        'https://i.picsum.photos'
                     ],
                     'script-src': [
                         // Used by the service worker in /worker/main.js

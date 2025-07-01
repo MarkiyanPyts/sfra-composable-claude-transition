@@ -31,9 +31,9 @@ const bannerSlides = [
     {
         title: 'YOUR SUMMER',
         subtitle: 'YOUR STYLE',
-        image: '/static/img/hero-banner.jpg',
-        imageDesktop: '/static/img/hero-banner-desktop.jpg',
-        imageMobile: '/static/img/hero-banner-mobile.jpg',
+        image: 'https://picsum.photos/1200/600?random=1',
+        imageDesktop: 'https://picsum.photos/1200/600?random=1',
+        imageMobile: 'https://picsum.photos/600/400?random=1',
         ctaText: 'SHOP NOW',
         ctaLink: '/shop/summer-collection'
     }
@@ -50,36 +50,78 @@ const categories = [
         id: '1',
         tabId: 'women',
         title: 'CLOTHING',
-        image: '/static/img/category-women-clothing.jpg',
+        image: 'https://picsum.photos/300/350?random=2',
         link: '/women/clothing'
     },
     {
         id: '2',
         tabId: 'women',
         title: 'FOOTWEAR',
-        image: '/static/img/category-women-footwear.jpg',
+        image: 'https://picsum.photos/300/350?random=3',
         link: '/women/footwear'
     },
     {
         id: '3',
         tabId: 'women',
         title: 'ACCESSORIES',
-        image: '/static/img/category-women-accessories.jpg',
+        image: 'https://picsum.photos/300/350?random=4',
         link: '/women/accessories'
     },
     {
         id: '4',
         tabId: 'women',
         title: 'SWIMWEAR',
-        image: '/static/img/category-women-swimwear.jpg',
+        image: 'https://picsum.photos/300/350?random=5',
         link: '/women/swimwear'
+    },
+    {
+        id: '5',
+        tabId: 'men',
+        title: 'CLOTHING',
+        image: 'https://picsum.photos/300/350?random=6',
+        link: '/men/clothing'
+    },
+    {
+        id: '6',
+        tabId: 'men',
+        title: 'FOOTWEAR',
+        image: 'https://picsum.photos/300/350?random=7',
+        link: '/men/footwear'
+    },
+    {
+        id: '7',
+        tabId: 'men',
+        title: 'ACCESSORIES',
+        image: 'https://picsum.photos/300/350?random=8',
+        link: '/men/accessories'
+    },
+    {
+        id: '8',
+        tabId: 'kids',
+        title: 'CLOTHING',
+        image: 'https://picsum.photos/300/350?random=9',
+        link: '/kids/clothing'
+    },
+    {
+        id: '9',
+        tabId: 'kids',
+        title: 'FOOTWEAR',
+        image: 'https://picsum.photos/300/350?random=10',
+        link: '/kids/footwear'
+    },
+    {
+        id: '10',
+        tabId: 'kids',
+        title: 'TOYS',
+        image: 'https://picsum.photos/300/350?random=11',
+        link: '/kids/toys'
     }
 ]
 
 const masterCategories = [
     {
         title: 'RUNNING & TRAINING',
-        image: '/static/img/master-category-running.jpg',
+        image: 'https://picsum.photos/600/400?random=12',
         links: [
             {label: 'MEN', url: '/men/running'},
             {label: 'WOMEN', url: '/women/running'},
@@ -88,7 +130,7 @@ const masterCategories = [
     },
     {
         title: 'LIONS JERSEY',
-        image: '/static/img/master-category-lions.jpg',
+        image: 'https://picsum.photos/600/400?random=13',
         links: [
             {label: 'ADULTS', url: '/adults/lions-jersey'},
             {label: 'KIDS', url: '/kids/lions-jersey'},
@@ -100,12 +142,12 @@ const masterCategories = [
 const feedItems = [
     {
         id: '1',
-        image: '/static/img/feed-1.jpg',
+        image: 'https://picsum.photos/300/300?random=14',
         products: [
             {
                 id: 'p1',
                 name: 'Ripstop Anorak Windbreaker Half...',
-                image: '/static/img/product-windbreaker.jpg',
+                image: 'https://picsum.photos/200/200?random=15',
                 price: 89.99,
                 link: '/product/windbreaker'
             }
@@ -113,12 +155,12 @@ const feedItems = [
     },
     {
         id: '2',
-        image: '/static/img/feed-2.jpg',
+        image: 'https://picsum.photos/300/300?random=16',
         products: [
             {
                 id: 'p2',
                 name: 'Classic Sneakers',
-                image: '/static/img/product-sneakers.jpg',
+                image: 'https://picsum.photos/200/200?random=17',
                 price: 120.00,
                 link: '/product/sneakers'
             }
@@ -126,12 +168,12 @@ const feedItems = [
     },
     {
         id: '3',
-        image: '/static/img/feed-3.jpg',
+        image: 'https://picsum.photos/300/300?random=18',
         products: [
             {
                 id: 'p3',
                 name: 'Summer Collection',
-                image: '/static/img/product-summer.jpg',
+                image: 'https://picsum.photos/200/200?random=19',
                 price: 65.00,
                 link: '/product/summer'
             }
@@ -139,14 +181,27 @@ const feedItems = [
     },
     {
         id: '4',
-        image: '/static/img/feed-4.jpg',
+        image: 'https://picsum.photos/300/300?random=20',
         products: [
             {
                 id: 'p4',
                 name: 'Beach Essentials',
-                image: '/static/img/product-beach.jpg',
+                image: 'https://picsum.photos/200/200?random=21',
                 price: 45.00,
                 link: '/product/beach'
+            }
+        ]
+    },
+    {
+        id: '5',
+        image: 'https://picsum.photos/300/300?random=22',
+        products: [
+            {
+                id: 'p5',
+                name: 'Athletic Wear',
+                image: 'https://picsum.photos/200/200?random=23',
+                price: 75.00,
+                link: '/product/athletic'
             }
         ]
     }
@@ -155,22 +210,22 @@ const feedItems = [
 const categoryTiles = [
     {
         title: "WOMEN'S",
-        image: '/static/img/tile-women.jpg',
+        image: 'https://picsum.photos/350/350?random=24',
         link: '/women'
     },
     {
         title: "MEN'S",
-        image: '/static/img/tile-men.jpg',
+        image: 'https://picsum.photos/350/350?random=25',
         link: '/men'
     },
     {
         title: "KIDS'",
-        image: '/static/img/tile-kids.jpg',
+        image: 'https://picsum.photos/350/350?random=26',
         link: '/kids'
     },
     {
         title: 'BOOTROOM',
-        image: '/static/img/tile-bootroom.jpg',
+        image: 'https://picsum.photos/350/350?random=27',
         link: '/bootroom'
     }
 ]
@@ -178,37 +233,37 @@ const categoryTiles = [
 const brands = [
     {
         name: 'ATAK',
-        logo: '/static/img/brand-atak.png',
+        logo: 'https://picsum.photos/120/60?random=28',
         link: '/brands/atak'
     },
     {
         name: 'On',
-        logo: '/static/img/brand-on.png',
+        logo: 'https://picsum.photos/120/60?random=29',
         link: '/brands/on'
     },
     {
         name: 'Speedo',
-        logo: '/static/img/brand-speedo.png',
+        logo: 'https://picsum.photos/120/60?random=30',
         link: '/brands/speedo'
     },
     {
         name: 'Tavistock',
-        logo: '/static/img/brand-tavistock.png',
+        logo: 'https://picsum.photos/120/60?random=31',
         link: '/brands/tavistock'
     },
     {
         name: 'Converse',
-        logo: '/static/img/brand-converse.png',
+        logo: 'https://picsum.photos/120/60?random=32',
         link: '/brands/converse'
     },
     {
         name: 'Columbia',
-        logo: '/static/img/brand-columbia.png',
+        logo: 'https://picsum.photos/120/60?random=33',
         link: '/brands/columbia'
     },
     {
         name: 'Berghaus',
-        logo: '/static/img/brand-berghaus.png',
+        logo: 'https://picsum.photos/120/60?random=34',
         link: '/brands/berghaus'
     }
 ]
@@ -240,13 +295,13 @@ const Home: React.FC = () => {
     }, [pathname, einstein])
 
     // Transform API products to match our component interface
-    const summerProducts = productSearchResult?.hits?.map(hit => ({
+    const summerProducts = productSearchResult?.hits?.map((hit, index) => ({
         id: hit.productId,
         name: hit.name,
         brand: hit.brand || 'Brand',
         price: hit.price,
         originalPrice: hit.price * 1.2,
-        image: hit.image?.link || '/static/img/placeholder.jpg',
+        image: hit.image?.link || `https://picsum.photos/260/300?random=${36 + index}`,
         badge: hit.productPromotions?.[0]?.promotionalMessage || '',
         link: `/product/${hit.productId}`
     })) || []
@@ -269,7 +324,7 @@ const Home: React.FC = () => {
                 logo="bear-races"
                 title="LIFE"
                 subtitle="STYLE SPORTS"
-                backgroundImage="/static/img/full-screen-cta-bg.jpg"
+                backgroundImage="https://picsum.photos/1200/600?random=35"
                 ctaText="ENTER NOW"
                 ctaLink="/bear-races"
             />
