@@ -36,6 +36,15 @@ const bannerSlides = [
         imageMobile: 'https://picsum.photos/600/400?random=1',
         ctaText: 'SHOP NOW',
         ctaLink: '/shop/summer-collection'
+    },
+    {
+        title: 'NEW ARRIVALS',
+        subtitle: 'FRESH LOOKS',
+        image: 'https://picsum.photos/1200/600?random=40',
+        imageDesktop: 'https://picsum.photos/1200/600?random=40',
+        imageMobile: 'https://picsum.photos/600/400?random=41',
+        ctaText: 'DISCOVER NOW',
+        ctaLink: '/shop/new-arrivals'
     }
 ]
 

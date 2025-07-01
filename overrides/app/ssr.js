@@ -294,7 +294,8 @@ const {handler} = runtime.createHandler(options, (app) => {
                         '*.commercecloud.salesforce.com',
                         // Lorem Picsum for placeholder images
                         'https://picsum.photos',
-                        'https://i.picsum.photos'
+                        'https://i.picsum.photos',
+                        'https://fastly.picsum.photos'
                     ],
                     'script-src': [
                         // Used by the service worker in /worker/main.js

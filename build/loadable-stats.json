@@ -1,16 +1,16 @@
 {
   "name": "client",
-  "hash": "75236a9f12859d5def72",
+  "hash": "415dbbf3527f063b1d8d",
   "publicPath": "",
   "outputPath": "/Users/markiyanpyts/Documents/GitHub/sfra-composable-claude-transition/build",
   "assetsByChunkName": {
     "main": [
       "main.js",
-      "main.11bc9180a3790f52353c.hot-update.js"
+      "main.d3a08823f87036c91f3a.hot-update.js"
     ],
     "pages-home": [
       "pages-home.js",
-      "pages-home.11bc9180a3790f52353c.hot-update.js"
+      "pages-home.d3a08823f87036c91f3a.hot-update.js"
     ],
     "pages-my-new-route": [
       "pages-my-new-route.js"
@@ -225,7 +225,7 @@
     {
       "type": "asset",
       "name": "pages-home.js",
-      "size": 91928,
+      "size": 92215,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -557,17 +557,17 @@
     },
     {
       "type": "asset",
-      "name": "pages-home.11bc9180a3790f52353c.hot-update.js",
-      "size": 15346,
+      "name": "pages-home.d3a08823f87036c91f3a.hot-update.js",
+      "size": 15633,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "11bc9180a3790f52353c",
+        "fullhash": "d3a08823f87036c91f3a",
         "related": {
-          "sourceMap": "pages-home.11bc9180a3790f52353c.hot-update.js.map"
+          "sourceMap": "pages-home.d3a08823f87036c91f3a.hot-update.js.map"
         }
       },
       "chunkNames": [
@@ -734,7 +734,7 @@
     },
     {
       "type": "asset",
-      "name": "main.11bc9180a3790f52353c.hot-update.js",
+      "name": "main.d3a08823f87036c91f3a.hot-update.js",
       "size": 360,
       "emitted": false,
       "comparedForEmit": false,
@@ -742,9 +742,9 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "11bc9180a3790f52353c",
+        "fullhash": "d3a08823f87036c91f3a",
         "related": {
-          "sourceMap": "main.11bc9180a3790f52353c.hot-update.js.map"
+          "sourceMap": "main.d3a08823f87036c91f3a.hot-update.js.map"
         }
       },
       "chunkNames": [
@@ -784,7 +784,7 @@
     },
     {
       "type": "asset",
-      "name": "main.11bc9180a3790f52353c.hot-update.json",
+      "name": "main.d3a08823f87036c91f3a.hot-update.json",
       "size": 41,
       "emitted": false,
       "comparedForEmit": false,
@@ -792,7 +792,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "11bc9180a3790f52353c"
+        "fullhash": "d3a08823f87036c91f3a"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -817,7 +817,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.11bc9180a3790f52353c.hot-update.js"
+          "name": "main.d3a08823f87036c91f3a.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -845,7 +845,7 @@
           "name": "pages-home.js"
         },
         {
-          "name": "pages-home.11bc9180a3790f52353c.hot-update.js"
+          "name": "pages-home.d3a08823f87036c91f3a.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -1197,7 +1197,7 @@
       "id": "main",
       "files": [
         "main.js",
-        "main.11bc9180a3790f52353c.hot-update.js"
+        "main.d3a08823f87036c91f3a.hot-update.js"
       ]
     },
     {
@@ -1210,7 +1210,7 @@
       "id": "pages-home",
       "files": [
         "pages-home.js",
-        "pages-home.11bc9180a3790f52353c.hot-update.js"
+        "pages-home.d3a08823f87036c91f3a.hot-update.js"
       ]
     },
     {
